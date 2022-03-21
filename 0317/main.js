@@ -28,12 +28,11 @@ function dynamic(randomArr) {
     }
 }
 
-dynamic(randomString());
-
 //커서 깜빡임 효과
 function blink() {
     target.classList.toggle("active");
 }
 
 
+dynamic(randomString());
 setInterval(blink, 500);
