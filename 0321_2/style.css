@@ -3,7 +3,7 @@
     src: url(font/abster-webfont.woff) format('woff');
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,7 +69,7 @@
     padding: 15px 20px;
     border-radius: 20px;
     margin-top: 30px;
-    outline: none;
+    outline: none;  
     cursor: pointer;
     transition: all .4s;
 }
